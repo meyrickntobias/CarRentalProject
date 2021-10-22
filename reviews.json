@@ -1,0 +1,17 @@
+[
+	{
+	"title": "Great Company",
+	"author": "Test User",
+	"reviewcontent": "Great hire company, great vehicles, great prices!"
+	},
+	{
+		"title": "Wheel fell off",
+		"author": "Test User2",
+		"reviewcontent": "Vehicle was a bit older and a wheel actually fell off when we were driving - wouldn't use again."
+	},
+	{
+		"title": "Friendly and Helpful",
+		"author": "Test User3",
+		"reviewcontent": "The staff couldn't be nicer."
+	}
+]

@@ -1,0 +1,26 @@
+#bookings {
+    margin-top: 120px;
+}
+
+#bookings h2 {
+    color: rgb(160, 160, 160);
+    font-weight: lighter;
+    text-align: center;
+    font-size: 3.5em;
+}
+
+.booking {
+    width: 50%;
+    margin: 20px auto;
+    background-color: rgb(169, 198, 170);
+    font-weight: lighter;
+    border-radius: 5px;
+    padding: 10px;
+    color: white;
+}
+
+.reg {
+    border-bottom: 1px solid white;
+    width: 100%;
+    display: block;
+}

@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Dunedin Wheels</title>
+        <link rel="stylesheet" href="styles.css" type="text/css" />
+        <link rel="stylesheet" href="grid.css" type="text/css" />
+        <script src="jquery.min.js"></script>
+        <script src="vehicles.js"></script>
+    </head>
+    <body>
+        <!-- Top navigation bar containing title of the site and page links -->
+        <header>
+            <h1>Dunedin Wheels</h1>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="map.html">Map</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="mybooking.html">My Booking</a></li>
+                <li><a href="reviews.html">Reviews</a></li>
+            </ul>
+        </header>
+
+
+        <div id="top">
+            <h2>Dunedin Wheels</h2>
+            <p>The best car rental in Dunedin!</p>
+            <form id="date-picker-form">
+                <div class="date-picker">
+                    <span>Pickup date</span>
+                    <input type="date" id="date-pickup">
+                </div>
+                <div class="date-picker">
+                    <span>Dropoff date</span>
+                    <input type="date" id="date-dropoff">
+                </div>
+                <button id="submit-date">Find a car</button>
+            </form>
+        </div>
+
+        <div id="main">
+            <h3>Our Cars</h3>
+        </div>
+
+        <!-- This will be the modal that pops up when a vehicle is clicked -->
+        <div id="modal-container">
+            <div id="modal">
+
+            </div>
+            <span id="close-modal">x</span>
+        </div>
+
+    </body>
+</html>

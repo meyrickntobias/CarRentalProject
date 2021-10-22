@@ -1,0 +1,417 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+
+body {
+    font-family: 'Helvetica';
+    margin: 0;
+    padding: 0;
+    background-image: url("UObg.jpg");
+    background-size: 1700px 1250px;
+    background-attachment: fixed;
+}
+
+#overlay {
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: rgba(255,255,255,0.7);
+    z-index: -1;
+}
+
+header {
+    background-color: rgba(169, 198, 170, 0.7);
+    color: white;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    padding: 15px;
+    margin-bottom: 70px;
+    z-index: 100;
+}
+
+header h1, header ul {
+    display: inline-block;
+    margin: 0;
+}
+
+header ul {
+    padding: 10px;
+    border-radius: 10px;
+    background-color: rgb(123, 123, 123);
+    margin-left: 50px;
+}
+
+header h1 {
+    margin-left: 10px;
+    font-weight: lighter;
+}
+
+header li {
+    display: inline-block;
+    text-decoration: none;
+    list-style: none;
+    padding-left: 15px;
+    padding-right: 15px;
+    border-right: 1px solid white;
+}
+
+header li:last-of-type {
+    border: none;
+}
+
+header a {
+    text-decoration: none;
+    font-weight: lighter;
+    color: white;
+}
+
+header a:hover {
+    color: #5acdd7;
+}
+
+#top {
+    margin: 0px auto 0 auto;
+    color: rgb(160, 160, 160);
+    padding: 100px;
+    font-weight: lighter;
+    background-color: rgba(255, 255, 255, 0.9);
+}
+
+#top h2 {
+    text-align: center;
+    font-size: 3.5em;
+}
+
+#top p {
+    text-align: center;
+    font-size: 1.4em;
+}
+
+/** Modal **/
+#modal-container {
+    z-index: 100;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(255,255,255,0.8);
+    display: none;
+}
+
+#modal {
+    position: fixed;
+    top: 15%;
+    bottom: 25%;
+    right: 30%;
+    left: 30%;
+    background-color: rgb(169, 198, 170);
+    padding: 15px;
+    border-radius: 5px;
+    color: white;
+    overflow-y: auto;
+    font-weight: lighter;
+    box-shadow: 0 0 2px 0 black;
+}
+
+#modal h2 {
+    text-align: center;
+    margin-bottom: 30px;
+    font-weight: lighter;
+}
+
+#modal-reg {
+    text-align: center;
+    font-weight: lighter;
+}
+
+#close-modal {
+    position: fixed;
+    top: 20px;
+    right: 25px;
+    color: red;
+    font-size: 2.2em;
+}
+
+#close-modal:hover {
+    cursor: pointer;
+}
+
+#modal-book {
+    width: 45%;
+    border: none;
+    border-radius: 5px;
+    padding: 10px;
+    background-color: #4d6abd;
+    color: white;
+    margin: auto;
+    display: block;
+}
+
+#modal-book:hover {
+    cursor: pointer;
+    background-color: #39529e;
+}
+
+#modal-type, #modal-price {
+    display: inline-block;
+    width: 50%;
+}
+
+#modal-price {
+    float: right;
+    text-align: right;
+}
+
+#modal-img {
+    width: 60%;
+    margin: 10px auto;
+    display: block;
+    height: auto;
+    border: 2px solid white;
+}
+
+#modal-details {
+    width: 60%;
+    margin: 10px auto;
+}
+
+/** Map **/
+#left {
+    display: inline-block;
+    width: 60%;
+    margin: 120px 0 0 0;
+}
+
+#left h3 {
+    text-align: center;
+    font-weight: normal;
+}
+
+#map {
+    width: 80%;
+    height: 450px;
+    margin: auto;
+}
+
+#right {
+    display: inline-block;
+    border-left: 1px solid lightgray;
+    margin: 120px 0 0 0;
+    float: right;
+    width: 35%;
+    height: 600px;
+}
+
+#right h4 {
+    font-weight: normal;
+    margin-left: 50px;
+}
+
+#right h4:hover {
+    cursor: pointer;
+}
+
+.activity, .restaurant {
+    font-size: 0.8em;
+    margin-left: 80px;
+    font-weight: lighter;
+}
+
+.activity:hover, .restaurant:hover {
+    cursor: pointer;
+}
+
+#info {
+    margin-top: 50px;
+    font-weight: lighter;
+    margin-left: 50px;
+    width: 80%;
+}
+
+#right hr {
+    border: 0;
+    height: 1px;
+    width: 50%;
+    margin: 20px auto;
+    background: #333;
+    background-image: linear-gradient(to right, #ccc, #333, #ccc);
+}
+
+/** About **/
+#about-header {
+    margin-top: 150px;
+    margin-bottom: 120px;
+    font-size: 3.2em;
+    text-align: center;
+    color: #999999;
+}
+
+#about-info {
+    width: 100%;
+    padding: 50px 0 100px 0;
+    height: 100%;
+    background-color: rgb(169, 198, 170);
+    color: white;
+}
+
+#about-info p {
+    text-align: justified;
+    margin: 0 80px 30px 80px;
+    font-size: 1.3em;
+}
+
+#about-info a {
+    color: rgb(66, 169, 215);
+}
+
+/** Date pickers **/
+.date-picker {
+    background-color: rgb(121, 121, 121);
+    display: inline-block;
+    padding: 10px;
+    border-radius: 10px;
+    width: 250px;
+}
+
+.date-picker input {
+    float: right;
+}
+
+#date-picker-form {
+    padding-top: 50px;
+    width: 550px;
+    margin: auto;
+}
+
+.date-picker span {
+    color: white;
+    font-size: 0.7em;
+    margin-right: 10px;
+}
+
+#submit-date {
+    display: block;
+    width: 60%;
+    margin: 20px auto;
+    border: none;
+    padding: 10px 25px;
+    color: white;
+    background-color: rgb(94, 188, 191);
+    border-radius: 10px;
+    font-size: 1em;
+}
+
+#submit-date:hover {
+    cursor: pointer;
+    background-color: rgb(71, 167, 150);
+}
+
+
+/* Booking */
+#booking-msg {
+    text-align: center;
+    color: white;
+    font-weight: lighter;
+    grid-column: 1 / 6;
+}
+
+#booking-name {
+    display: block;
+    width: 40%;
+    margin: 10px auto;
+    padding; 10px;
+}
+
+#mybooking {
+    margin: 150px auto 0 auto;
+    background-color: rgba(170, 170, 170, 0.9);
+    color: white;
+    width: 50%;
+    font-weight: lighter;
+    height: 600px;
+    position: relative;
+    border-radius: 10px;
+}
+
+#mybooking h2 {
+    text-align: center;
+    font-weight: lighter;
+    padding-top: 25px;
+}
+
+#booking-details {
+    margin-left: 30px;
+    margin-top: 60px;
+    font-size: 1.2em;
+}
+
+#booking-submit {
+    width: 100%;
+    border: none;
+    margin: 0;
+    position: absolute;
+    bottom: 0;
+    padding: 15px;
+    color: white;
+    background-color: rgb(169, 198, 170);
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    font-size: 1.3em;
+    font-weight: lighter;
+}
+
+#booking-submit:hover {
+    cursor: pointer;
+    background-color: rgb(115, 161, 117);
+}
+
+.money {
+    color: #738957;
+}
+
+/* Reviews */
+#reviews {
+    min-height: 500px;
+    width: 60%;
+    margin: 100px auto;
+    background-color: rgba(102, 102, 102, 0.8);
+    font-weight: lighter;
+    color: white;
+    padding: 15px;
+}
+
+#reviews h2 {
+    font-weight: lighter;
+    text-align: center;
+}
+
+.review {
+    border-radius: 15px;
+    margin: 15px auto;
+    width: 80%;
+    background-color: #c45f5f;
+    color: #ffffff;
+    padding: 10px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,125 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "marker-color": "#A9C6AA",
+        "marker-size": "medium",
+        "marker-symbol": "",
+        "type": "campsite",
+        "name": "Car Rental Office"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          170.5153065919876,
+          -45.90540437585189
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "marker-color": "#7e7e7e",
+        "marker-size": "medium",
+        "marker-symbol": "triangle",
+        "name": "St Clair Beach",
+        "type": "landmark"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          170.49052566289902,
+          -45.911734850052895
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "marker-color": "#7e7e7e",
+        "marker-size": "medium",
+        "marker-symbol": "",
+        "name": "Hot Water Pool",
+        "type": "landmark"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          170.48803120851517,
+          -45.913724171912456
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "marker-color": "#7e7e7e",
+        "marker-size": "medium",
+        "marker-symbol": "",
+        "type": "restaurant",
+        "name": "Esplanade"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          170.49030303955075,
+          -45.911675131971606
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "marker-color": "#7e7e7e",
+        "marker-size": "medium",
+        "marker-symbol": "",
+        "type": "restaurant",
+        "name": "Emerson's Brewery"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          170.516635,
+          -45.870492
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "marker-color": "#7e7e7e",
+        "marker-size": "medium",
+        "marker-symbol": "",
+        "type": "landmark",
+        "name": "Speight's Brewery Tour"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          170.500101,
+          -45.876535
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "marker-color": "#7e7e7e",
+        "marker-size": "medium",
+        "marker-symbol": "",
+        "type": "restaurant",
+        "name": "Lonestar"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          170.508374,
+          -45.866459
+        ]
+      }
+    }
+
+  ]
+}

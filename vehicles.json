@@ -1,0 +1,85 @@
+{
+	"fleet": {
+		"vehicle": [
+			{
+				"registration": "ABC 123",
+				"vehicleType": "Small",
+				"description": "Great small car, superb economy.",
+				"pricePerDay": "40.0"
+			},
+			{
+				"registration": "MUD 312",
+				"vehicleType": "Small",
+				"description": "An older vehicle but still a goody.",
+				"pricePerDay": "35.0"
+			},
+			{
+				"registration": "HGK 907",
+				"vehicleType": "Luxury",
+				"description": "Top of the range 7-seater",
+				"pricePerDay": "110"
+			},
+			{
+				"registration": "BJB 499",
+				"vehicleType": "Large",
+				"description": "A 4WD Ski wagon, roof-rack included",
+				"pricePerDay": "85"
+			},
+			{
+				"registration": "HXB 852",
+				"vehicleType": "Large",
+				"description": "Full-sized station wagon",
+				"pricePerDay": "85"
+			},
+			{
+				"registration": "HSK 325",
+				"vehicleType": "Medium",
+				"description": "A basic family car, seats 5.",
+				"pricePerDay": "65"
+			},
+			
+			{
+				"registration": "MJN 842",
+				"vehicleType": "Medium",
+				"description": "A basic family car, seats 5.",
+				"pricePerDay": "65"
+			},
+			{
+				"registration": "JMT 111",
+				"vehicleType": "Medium",
+				"description": "A basic family car, seats 5.",
+				"pricePerDay": "70"
+			},
+			{
+				"registration": "FOT 559",
+				"vehicleType": "Large",
+				"description": "Full size station wagon with roof box",
+				"pricePerDay": "85"
+			},
+			{
+				"registration": "BJB 507",
+				"vehicleType": "Large",
+				"description": "A 4WD Ski wagon, roof-rack included",
+				"pricePerDay": "85"
+			},
+			{
+				"registration": "BWL 561",
+				"vehicleType": "Large",
+				"description": "Performance family sedan",
+				"pricePerDay": "90"
+			},
+			{
+				"registration": "FJH 835",
+				"vehicleType": "Luxury",
+				"description": "High performance luxury vehicle",
+				"pricePerDay": "125"
+			},
+			{
+				"registration": "HDE 774",
+				"vehicleType": "Luxury",
+				"description": "Top of the range luxury sedan",
+				"pricePerDay": "125"
+			}
+		]
+	}
+}

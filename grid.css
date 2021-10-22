@@ -1,0 +1,78 @@
+/* This is the grid container */
+#main {
+    display: grid;
+    justify-content: center;
+    grid-template-columns: 15% 15% 15% 15% 15%;
+    align-content: start;
+    width: 100%;
+    padding: 50px 0 100px 0;
+    height: auto;
+    background-color: rgba(169, 198, 170, 0.9);
+}
+
+
+#main h3 {
+    font-size: 2em;
+    grid-column: 1 / 6;
+    text-align: center;
+    font-weight: lighter;
+    color: white;
+}
+
+@media only screen and (max-width: 1400px) {
+    /* For mobile phones: */
+    /* This is the grid container */
+    #main {
+        grid-template-columns: 20% 20% 20% 20%;
+    }
+
+    .box {
+        grid-column: 1 / 5;
+    }
+
+    #main h3 {
+        grid-column: 1 / 5;
+    }
+
+    #booking-msg {
+        grid-column: 1 / 5;
+    }
+}
+
+/* This is the grid item */
+.vehicle {
+    background-color: lightgray;
+    background-size: 250px 160px;
+    background-repeat: no-repeat;
+    background-position: center;
+    margin: 10px 30px;
+    padding: 80px 20px;
+    position: relative;
+    border-radius: 10px;
+}
+
+.vehicle:hover {
+    cursor: pointer;
+}
+
+.caption {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    padding: 5px 0;
+    font-size: 0.8em;
+    background-color: rgba(0,0,0,0.5);
+    display: inline-block;
+    width: 100%;
+    color: white;
+    text-align: center;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+
+.box {
+    grid-column: 1 / 6;
+    height: 100px;
+    background-color: rgb(240,240,240);
+    display: none;
+}
